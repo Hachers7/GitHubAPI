@@ -125,7 +125,7 @@ const sortStars = () =>
             {
                 for(let j = 0; j <= res.data.length - 1; j++)
                 {
-                    if(sortedStars[i] === res.data[j].name)
+                    if(sortedStars[i] === res.data[j].stargazers_count)
                     {
                         sortedDesc.push(res.data[j].description);
                         sortedNames.push(res.data[j].name);
