@@ -2,9 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>GitHubAPI</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <div class="main" id="main">
+        <div class="container">
+            <div class="search_container">
+                <div class="row-main">
+                    <input type="text" id="search" class="input" placeholder="Username">
+                    <button class="btn submitButton" id="submit" style="position: absolute">Submit</button>
+                </div>
+            </div>
+            <div class="result_container">
+                <table id="resTable">
+                    <tr>
+                        <td class="columnTitle repos-title" id="rep">Repository</td>
+                        <td class="columnTitle">Description</td>
+                        <td class="columnTitle">Fork</td>
+                        <td class="columnTitle stars-title" id="stars">Stars</td>
+                        <td class="columnTitle">Last update</td>
+                        <td class="columnTitle">Language</td>
+                    </tr>
+                    <tr>
+                        <td class="profile-repos profile-key rows"><div class="cells" style="border-style: hidden; position: absolute"><p class="innerText"></p></div></td>
+                        <td class="profile-descr profile-key rows"><div class="cells" style="border-style: hidden; position: absolute"><p class="innerText"></p></div></td>
+                        <td class="profile-fork profile-key rows"><div class="cells" style="border-style: hidden; position: absolute"><p class="innerText"></p></div></td>
+                        <td class="profile-stars profile-key rows"><div class="cells" style="border-style: hidden; position: absolute"><p class="innerText"></p></div></td>
+                        <td class="profile-update profile-key rows"><div class="cells" style="border-style: hidden; position: absolute"><p class="innerText"></p></div></td>
+                        <td class="profile-lang profile-key rows"><div class="cells" style="border-style: hidden; position: absolute"><p class="innerText"></p></div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

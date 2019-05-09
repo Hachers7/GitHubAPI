@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    width: 70px;
+}
+
+.search_container{
+    padding-bottom: 30px;
+}
+
+.columnTitle{
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    margin-right: -2px;
+    padding-bottom: 20px;
+    text-align: center;
+    float: left;
+}
+
+.cells{
+    height: 110px;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+}
+
+.innerText {
+    width: 115px;
+    word-wrap: break-word;
+}
+
+.rows{
+    margin-right: -2px;
+    width: 120px;
+    float: left;
+}
